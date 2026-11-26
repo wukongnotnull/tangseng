@@ -1,7 +1,7 @@
 ---
 name: wk-gzh-cover
 description: |
-  悟空非空也的公众号封面图提示词生成 skill（wk-gzh-cover）。当用户需要为公众号文章生成封面图提示词（prompt）时使用。触发词包括但不限于：封面图提示词、封面 prompt、封面咒语、生成封面图、帮我写封面提示词、封面图怎么画、起几个封面 prompt。
+  悟空非空也的公众号封面图提示词生成 skill（wk-gzh-cover）。当用户需要为公众号文章生成封面图提示词（prompt）时使用。触发词包括但不限于：封面图提示词、封面 prompt、封面咒语、帮我写封面提示词、封面图怎么画、起几个封面 prompt。用户需要直接制作封面图成品时，使用 creating-social-covers。
 
   **不适合的场景**：非公众号内容封面（小红书、微博、B站等平台请用其他 skill）、正文配图（那是 wk-gzh-writer 的范畴）。
 ---

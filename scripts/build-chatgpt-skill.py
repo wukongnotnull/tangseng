@@ -9,6 +9,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 SUPPORT_FILES = {
+    "assets": {".png"},
     "references": {".md"},
     "templates": {".html"},
     "scripts": {".py"},

@@ -1,6 +1,6 @@
 # tangseng
 
-悟空非空也的自媒体创作工具，提供公众号写作、视频脚本和 HTML 幻灯片制作技能。支持 Codex、Claude Code 和提供 Skills 功能的 ChatGPT 账号。
+悟空非空也的自媒体创作工具，提供公众号写作、社交封面图、视频脚本和 HTML 幻灯片制作技能。支持 Codex、Claude Code 和提供 Skills 功能的 ChatGPT 账号。
 
 ## 安装
 
@@ -24,9 +24,9 @@ codex plugin list --marketplace tangseng
 python3 scripts/build-chatgpt-skill.py
 ```
 
-打开 ChatGPT 的个人菜单，进入 **Skills**，选择上传技能，并上传生成的 `dist/tangseng.zip`。安装一次即可使用下列 10 项功能。开始新对话后，可以输入「用 tangseng 给这篇公众号文章拟 5 个标题」，并附上文章内容。
+打开 ChatGPT 的个人菜单，进入 **Skills**，选择上传技能，并上传生成的 `dist/tangseng.zip`。安装一次即可使用下列技能。开始新对话后，可以输入「用 tangseng 给这篇公众号文章拟 5 个标题」，并附上文章内容。
 
-ChatGPT 会在支持文件生成的对话中提供 Markdown 或 HTML 下载链接。没有文件生成功能时，可从对话复制完整内容。PNG 导出另需 Playwright 和 Chromium，可以下载 HTML 后在本地导出。
+ChatGPT 会在支持文件生成的对话中提供文档、HTML 或图片的下载链接。没有文件生成功能时，可从对话复制文本内容。将 HTML 幻灯片导出为 PNG 另需 Playwright 和 Chromium，可以下载 HTML 后在本地导出。
 
 ### Claude Code
 
@@ -47,6 +47,7 @@ ChatGPT 会在支持文件生成的对话中提供 Markdown 或 HTML 下载链�
 | `wk-gzh-title` | 生成公众号标题 |
 | `wk-gzh-summary` | 生成公众号文章摘要和标签 |
 | `wk-gzh-cover` | 生成封面图提示词 |
+| `creating-social-covers` | 用内置图像生成工具制作视频封面、公众号头图和 X 文章头图，附创作者头像参考 |
 | `wk-gzh-illustrations` | 生成文章配图提示词 |
 | `wk-gzh-refine` | 提炼公众号文章中的事实和观点 |
 | `wk-video-script` | 撰写视频脚本 |
