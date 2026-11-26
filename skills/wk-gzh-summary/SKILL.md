@@ -71,6 +71,8 @@ description:
 
 每次生成摘要后，使用 Write 工具创建 `summary.md` 文件。
 
+在 Codex 中，把 `summary.md` 写到用户指定的目录。用户未指定目录时，写到当前工作目录。
+
 ## 完整输出格式
 
 ```markdown

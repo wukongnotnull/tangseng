@@ -1,0 +1,15 @@
+{
+  "name": "tangseng",
+  "version": "1.0.0",
+  "description": "公众号写作、视频脚本和 HTML 幻灯片制作技能。",
+  "author": {
+    "name": "wukongnotnull"
+  },
+  "repository": "https://github.com/wukongnotnull/tangseng",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "tangseng",
+    "shortDescription": "创作公众号文章、视频脚本和 HTML 幻灯片",
+    "category": "Productivity"
+  }
+}

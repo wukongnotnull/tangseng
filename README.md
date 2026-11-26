@@ -1,8 +1,34 @@
 # tangseng
 
-悟空非空也的 Claude Code 自媒体创作插件，提供公众号写作、视频脚本和 HTML 幻灯片制作技能。
+悟空非空也的自媒体创作工具，提供公众号写作、视频脚本和 HTML 幻灯片制作技能。支持 Codex、Claude Code 和提供 Skills 功能的 ChatGPT 账号。
 
 ## 安装
+
+### Codex
+
+在已下载的仓库根目录执行：
+
+```bash
+codex plugin marketplace add .
+codex plugin add tangseng@tangseng
+codex plugin list --marketplace tangseng
+```
+
+打开新的 Codex 会话，输入 `$` 打开技能选择器。比如，可以选择 `tangseng:wk-gzh-title`，附上文章内容，请 Codex 拟 5 个公众号标题。
+
+### ChatGPT
+
+在仓库根目录生成安装包：
+
+```bash
+python3 scripts/build-chatgpt-skill.py
+```
+
+打开 ChatGPT 的个人菜单，进入 **Skills**，选择上传技能，并上传生成的 `dist/tangseng.zip`。安装一次即可使用下列 9 项功能。开始新对话后，可以输入「用 tangseng 给这篇公众号文章拟 5 个标题」，并附上文章内容。
+
+ChatGPT 会在支持文件生成的对话中提供 Markdown 或 HTML 下载链接。没有文件生成功能时，可从对话复制完整内容。PNG 导出另需 Playwright 和 Chromium，可以下载 HTML 后在本地导出。
+
+### Claude Code
 
 在 Claude Code 中运行：
 
@@ -25,6 +51,7 @@
 | `wk-gzh-refine` | 提炼公众号文章中的事实和观点 |
 | `wk-video-script` | 撰写视频脚本 |
 | `wk-html-slides-amber-classified` | 制作琥珀色风格的 HTML 幻灯片 |
+| `check-chinese-grammar` | 校对中文、辨析病句和讲解现代汉语语法 |
 
 ## 本地开发
 

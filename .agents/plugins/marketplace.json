@@ -1,0 +1,19 @@
+{
+  "name": "tangseng",
+  "interface": {
+    "displayName": "tangseng"
+  },
+  "plugins": [
+    {
+      "name": "tangseng",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
