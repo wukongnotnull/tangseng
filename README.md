@@ -52,7 +52,7 @@ ChatGPT 会在支持文件生成的对话中提供 Markdown 或 HTML 下载链�
 | `wk-video-script` | 撰写视频脚本 |
 | `wk-html-slides-amber-classified` | 制作琥珀色风格的 HTML 幻灯片 |
 | `check-chinese-grammar` | 检查错别字、辨析病句和讲解现代汉语语法 |
-| `wk-note-platform-review` | 按五项规则审核笔记文案和配图中的站外推广或引流 |
+| `wk-publish-review` | 审核笔记、短视频和广告素材的发布风险 |
 
 ## 本地开发
 
