@@ -14,7 +14,7 @@ description: 为公众号和视频创作内容，并审核笔记、短视频和�
 | 写公众号摘要、引言或标签 | [wk-gzh-summary](references/wk-gzh-summary/guide.md) |
 | 提取事实和数据，区分事实与作者观点 | [wk-gzh-refine](references/wk-gzh-refine/guide.md) |
 | 生成公众号封面图提示词 | [wk-gzh-cover](references/wk-gzh-cover/guide.md) |
-| 直接生成视频封面、公众号头图或 X 文章头图 | [creating-social-covers](references/creating-social-covers/guide.md) |
+| 直接生成视频封面、公众号头图或 X 文章头图 | [wk-creating-social-covers](references/wk-creating-social-covers/guide.md) |
 | 生成与文章段落对应的正文配图提示词 | [wk-gzh-illustrations](references/wk-gzh-illustrations/guide.md) |
 | 把素材改编成视频脚本和分镜 | [wk-video-script](references/wk-video-script/guide.md) |
 | 把演讲稿、PPT 文案或大纲做成 HTML 幻灯片 | [wk-html-slides-amber-classified](references/wk-html-slides-amber-classified/guide.md) |
@@ -27,5 +27,5 @@ description: 为公众号和视频创作内容，并审核笔记、短视频和�
 
 - 直接处理用户粘贴的文字或上传的附件。链接内容无法读取时，请用户粘贴相关段落或上传文件。
 - 指南提到 Write 工具或要求把结果写到素材旁边时，改用当前对话的文件生成功能，保留指南约定的文件名，例如 `title.md`、`summary.md` 和 `illustrations.md`，并提供下载链接。当前对话无法生成附件时，直接给出完整内容和建议文件名。
-- `wk-gzh-cover` 和 `wk-gzh-illustrations` 交付绘图提示词。`creating-social-covers` 使用当前对话支持的图像生成工具，默认使用指南随附的头像参考，交付图片预览和下载链接。宿主能访问指南指定的本地目录时，按指南保存本地副本。
+- `wk-gzh-cover` 和 `wk-gzh-illustrations` 交付绘图提示词。`wk-creating-social-covers` 使用当前对话支持的图像生成工具，默认使用指南随附的头像参考，交付图片预览和下载链接。宿主能访问指南指定的本地目录时，按指南保存本地副本。
 - HTML 幻灯片以 [DeepSeek 示例](references/wk-html-slides-amber-classified/templates/deepseek-demo.html) 或 [Claude Mythos 示例](references/wk-html-slides-amber-classified/templates/claude-mythos-demo.html) 为样式参考，生成完整的 `index.html`。只有用户要求 PNG 且运行环境具备 Python、Playwright 和 Chromium 时，才用[截图脚本](references/wk-html-slides-amber-classified/scripts/capture_slides.py)导出。环境缺少浏览器时先交付 HTML。

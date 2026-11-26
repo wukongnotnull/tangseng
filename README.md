@@ -47,7 +47,7 @@ ChatGPT 会在支持文件生成的对话中提供文档、HTML 或图片的下�
 | `wk-gzh-title` | 生成公众号标题 |
 | `wk-gzh-summary` | 生成公众号文章摘要和标签 |
 | `wk-gzh-cover` | 生成封面图提示词 |
-| `creating-social-covers` | 用内置图像生成工具制作视频封面、公众号头图和 X 文章头图，附创作者头像参考 |
+| `wk-creating-social-covers` | 用内置图像生成工具制作视频封面、公众号头图和 X 文章头图，附创作者头像参考 |
 | `wk-gzh-illustrations` | 生成文章配图提示词 |
 | `wk-gzh-refine` | 提炼公众号文章中的事实和观点 |
 | `wk-video-script` | 撰写视频脚本 |

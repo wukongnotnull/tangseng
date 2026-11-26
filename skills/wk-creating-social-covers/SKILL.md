@@ -1,5 +1,5 @@
 ---
-name: creating-social-covers
+name: wk-creating-social-covers
 description: Generate finished video thumbnails, WeChat Official Account article covers, or X Articles header images for the creator's content, especially when an exact headline, creator portrait, or platform ratio matters.
 ---
 
