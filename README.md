@@ -51,7 +51,7 @@ ChatGPT 会在支持文件生成的对话中提供 Markdown 或 HTML 下载链�
 | `wk-gzh-refine` | 提炼公众号文章中的事实和观点 |
 | `wk-video-script` | 撰写视频脚本 |
 | `wk-html-slides-amber-classified` | 制作琥珀色风格的 HTML 幻灯片 |
-| `check-chinese-grammar` | 检查错别字、辨析病句和讲解现代汉语语法 |
+| `wk-check-chinese-grammar` | 检查错别字、辨析病句和讲解现代汉语语法 |
 | `wk-publish-review` | 审核笔记、短视频和广告素材的发布风险 |
 
 ## 本地开发

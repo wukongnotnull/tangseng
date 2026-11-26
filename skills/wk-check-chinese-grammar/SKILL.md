@@ -1,5 +1,5 @@
 ---
-name: check-chinese-grammar
+name: wk-check-chinese-grammar
 description: 在发送含中文自然语言的回答前，检查错别字，并按现代汉语语法修正自己的表述。适用于普通问答、技术说明、教学和口播稿，也适用于用户明确要求的错别字检查、病句辨析与校对。混合语言回答只检查中文部分。
 ---
 
