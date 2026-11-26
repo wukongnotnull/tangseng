@@ -1,6 +1,6 @@
 ---
 name: tangseng
-description: 为公众号和视频创作内容，并检查现代汉语语法。用来撰写公众号长文、起标题、生成摘要和标签、提炼文章事实和观点、制作封面和正文配图提示词、撰写视频脚本、制作琥珀色风格的 HTML 幻灯片，以及校对中文和辨析病句。
+description: 为公众号和视频创作内容，并检查现代汉语语法。用来撰写公众号长文、起标题、生成摘要和标签、提炼文章事实和观点、制作封面和正文配图提示词、撰写视频脚本、制作琥珀色风格的 HTML 幻灯片，以及检查错别字和辨析病句。
 ---
 
 # tangseng
@@ -17,7 +17,7 @@ description: 为公众号和视频创作内容，并检查现代汉语语法。�
 | 生成与文章段落对应的正文配图提示词 | [wk-gzh-illustrations](references/wk-gzh-illustrations/guide.md) |
 | 把素材改编成视频脚本和分镜 | [wk-video-script](references/wk-video-script/guide.md) |
 | 把演讲稿、PPT 文案或大纲做成 HTML 幻灯片 | [wk-html-slides-amber-classified](references/wk-html-slides-amber-classified/guide.md) |
-| 校对中文、辨析病句或讲解中文语法 | [check-chinese-grammar](references/check-chinese-grammar/guide.md) |
+| 校对中文、检查错别字、辨析病句或讲解中文语法 | [check-chinese-grammar](references/check-chinese-grammar/guide.md) |
 
 指南中的相对路径以该指南所在的目录为准。按需读取引用的资料、示例和模板。
 
