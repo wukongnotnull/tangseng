@@ -1,7 +1,7 @@
 {
   "name": "tangseng",
   "version": "1.4.0",
-  "description": "公众号写作、社交封面图、视频脚本和 HTML 幻灯片制作技能。",
+  "description": "公众号写作、社交封面图、口播音频剪辑、视频脚本和 HTML 幻灯片制作技能。",
   "author": {
     "name": "wukongnotnull"
   },
@@ -9,7 +9,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "tangseng",
-    "shortDescription": "公众号写作、社交封面、视频脚本和 HTML 幻灯片",
+    "shortDescription": "公众号写作、封面、口播剪辑、视频脚本与 HTML 幻灯片",
     "category": "Productivity"
   }
 }

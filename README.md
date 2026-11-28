@@ -1,6 +1,6 @@
 # tangseng
 
-悟空非空也的自媒体创作工具，提供公众号写作、社交封面图、视频脚本和 HTML 幻灯片制作技能。支持 Codex、Claude Code 和提供 Skills 功能的 ChatGPT 账号。
+悟空非空也的自媒体创作工具，提供公众号写作、社交封面图、口播音频剪辑、视频脚本和 HTML 幻灯片制作技能。支持 Codex、Claude Code 和提供 Skills 功能的 ChatGPT 账号。
 
 ## 安装
 
@@ -51,6 +51,7 @@ ChatGPT 会在支持文件生成的对话中提供文档、HTML 或图片的下�
 | `wk-gzh-illustrations` | 生成文章配图提示词 |
 | `wk-gzh-refine` | 提炼公众号文章中的事实和观点 |
 | `wk-video-script` | 撰写视频脚本 |
+| `wk-edit-narration` | 剪掉口播重读中较早的片段，按需缩短过长停顿 |
 | `wk-html-slides-amber-classified` | 制作琥珀色风格的 HTML 幻灯片 |
 | `wk-check-chinese-grammar` | 检查错别字、辨析病句和讲解现代汉语语法 |
 | `wk-publish-review` | 审核笔记、短视频和广告素材的发布风险 |
